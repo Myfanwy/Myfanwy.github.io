@@ -1,8 +1,8 @@
 name: Photo gallery
 markdown: redcarpet
-highlighter: pygments
+pygments: true
 permalink: /:year/:month/:title/
-url: www.voovarb.com
+url: http://nadjetey.github.io/GridGallery/
 author:
-    name: Myfanwy Johnston
+    name: Nii Adjetey Sowah
     twitter: #
