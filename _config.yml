@@ -1,8 +1,6 @@
 name: Myfanwy Johnston
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: /:year/:month/:title/
 url: www.voovarb.com
-author:
-    name: Myfanwy Johnston
-    twitter: #@Voovarb
+author: Myfanwy Johnston
