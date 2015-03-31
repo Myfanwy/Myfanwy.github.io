@@ -1,0 +1,8 @@
+name: Photo gallery
+markdown: redcarpet
+highlighter: pygments
+permalink: /:year/:month/:title/
+url: www.voovarb.com
+author:
+    name: Myfanwy Johnston
+    twitter: #
