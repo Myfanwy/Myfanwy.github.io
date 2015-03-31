@@ -1,7 +1,0 @@
----
-layout: default
-date:   2015-04-01
-photo: 2.png
-caption_header: Introduction to ggplot2
-caption: A presentation at the Davis R-Users group in March of 2015.
----
