@@ -1,7 +1,7 @@
 ---
 layout: default
-date:   2014-04-06 23:26:12
+date:   2015-04-01
 photo: 2.png
-caption_header: Sample header
-caption: sample caption
+caption_header: Introduction to ggplot2
+caption: A presentation at the Davis R-Users group in March of 2015.
 ---
