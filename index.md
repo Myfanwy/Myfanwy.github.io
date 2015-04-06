@@ -74,13 +74,13 @@ title: false
 # Myfanwy 
 # Johnston
 
-[Projects](www.github.com/Myfanwy)
+[Projects](http://github.com/Myfanwy)
 
 [Twitter](http://twitter.com/Voovarb)
 
 [Academics](http://biotelemetry.ucdavis.edu/pages/bio_Johnston.asp)
 
-[LinkedIn](www.linkedin.com/in/myfanwyjohnston/)
+[LinkedIn](http://linkedin.com/in/myfanwyjohnston/)
 
 
 
