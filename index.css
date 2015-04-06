@@ -1,0 +1,104 @@
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+
+.section .reveal .state-background {
+  background: #446455;
+}
+
+.homepage .reveal .state-background {
+  background-image: url(concrete_seamless.png); 
+  opacity: 0.6
+}
+
+.homepage .reveal h1 {
+	color: #46ACC8;
+  font-family: 'Megrim', cursive;
+	font-size: 1.50em;
+	line-height: 20%;
+}
+
+.homepage .reveal h2 {
+	color: #46ACC8;
+	font-family: 'Megrim', cursive;
+	font-size:1.875em;
+}
+
+.homepage .reveal p {
+	color: #DD8D29;
+	font-family: 'Raleway', sans-serif;
+	text-align: right;
+	text-indent: 50px;
+	font-size: 0.80em;
+	font-weight: 400;
+}
+
+/* links */
+.homepage .reveal a:link,
+.homepage .reveal a:hover,
+.hoomepage .reveal a:active {
+    color: #46ACC8; /* gray */
+    text-decoration: none;
+}
+
+/* visited link */
+.homepage .reveal a:visited {
+    color: #DD8D29; /*Fantastic Mr. Fox */
+    text-decoration: none;
+}
+
+
+
+/* links */
+.section .reveal a:link,
+.section .reveal a:hover,
+.section .reveal a:active {
+    color: #D67236; /* gray */
+    text-decoration: none;
+}
+
+/* visited link */
+.section .reveal a:visited {
+    color: #DD8D29; /*Fantastic Mr. Fox */
+    text-decoration: none;
+}
+
+/* mouse over link */
+.section .reveal a:hover {
+    color: #DD8D29;
+}
+
+.section .reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {
+  border-right-color: #C7B19C;
+}
+.section .reveal .controls div.navigate-right,
+.section .reveal .controls div.navigate-right.enabled {
+  border-left-color: #C7B19C;
+}
+
+.section .reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {
+  border-bottom-color: #C7B19C;
+}
+
+.section .reveal .controls div.navigate-down,
+.section .reveal .controls div.navigate-down.enabled {
+  border-top-color: #C7B19C;
+}
+
+.section .reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: #D3DDDC;
+}
+
+.section .reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: #D3DDDC;
+}
+
+.section .reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #D3DDDC;
+}
+.section .reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: #D3DDDC;
+}
