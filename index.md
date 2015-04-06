@@ -1,8 +1,7 @@
 <style type="text/css">
 .section .reveal .state-background {
-  background: url(concrete_seamless.png);
   background-image: url(concrete_seamless.png);
-  background-size: 50%;
+  opacity: 0.6
 }
 .section .reveal h1 {
 color: #B40F20;
