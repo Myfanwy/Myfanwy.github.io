@@ -48,14 +48,14 @@
 
 /* links */
 .homepage .reveal a:link,
-.homepage .reveal a:hover,
 .hoomepage .reveal a:active {
     color: #46ACC8; /* gray */
     text-decoration: none;
 }
 
 /* visited link */
-.homepage .reveal a:visited {
+.homepage .reveal a:visited,
+.homepage .reveal a:hover {
     color: #DD8D29; /*Fantastic Mr. Fox */
     text-decoration: none;
 }

@@ -84,7 +84,7 @@ left: 65%
 
 ***
 <br>
-<small>I am a Ph.D. Candidate in the Animal Behavior Graduate Group at UC Davis.  
+<small>I am a Ph.D. Candidate in the [Animal Behavior Graduate Group](http://anb.ucdavis.edu/index.html) at UC Davis.  
 
 I study the behavioral ecology of migratory fishes in California, using acoustic telemetry. 
 
@@ -93,12 +93,13 @@ I also have a special place in my heart for programming all kinds of things in R
 ===========
 type: homepage
 incremental: false
+# Hub.
 
 [At UC Davis](http://biotelemetry.ucdavis.edu/pages/bio_Johnston.asp)
 
 [GitHub](http://github.com/Myfanwy)
 
-[Twitter](http://twitter.com/Voovarb)
+[@Voovarb](http://twitter.com/Voovarb)
 
 [LinkedIn](http://linkedin.com/in/myfanwyjohnston/)
 
