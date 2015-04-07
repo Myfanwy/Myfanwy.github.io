@@ -95,7 +95,7 @@ type: homepage
 incremental: false
 # Hub.
 
-[At UC Davis](http://biotelemetry.ucdavis.edu/pages/bio_Johnston.asp)
+[At UC Davis](http://anb.ucdavis.edu/index.html)
 
 [GitHub](http://github.com/Myfanwy)
 
