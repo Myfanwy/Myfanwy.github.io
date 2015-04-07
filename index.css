@@ -2,15 +2,27 @@
 <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
-
 .section .reveal .state-background {
-  background: #446455;
+ background-image: url(concrete_seamless.png); 
+  opacity: 0.6
 }
+
+#para1 {
+  color: #46ACC8;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size:1.5em;
+  }
 
 .homepage .reveal .state-background {
   background-image: url(concrete_seamless.png); 
   opacity: 0.6
 }
+
+#homepage .reveal .blurb{
+  color: #46ACC8;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size:1.5em;
+  }
 
 .homepage .reveal h1 {
 	color: #46ACC8;
@@ -30,7 +42,7 @@
 	font-family: 'Raleway', sans-serif;
 	text-align: right;
 	text-indent: 50px;
-	font-size: 0.80em;
+	font-size: 0.70em;
 	font-weight: 400;
 }
 

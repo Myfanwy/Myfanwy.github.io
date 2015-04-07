@@ -1,80 +1,100 @@
+
 <style type="text/css">
-.section .reveal .state-background {
-  background-image: url(concrete_seamless.png);
-  opacity: 0.6
+
+/* ----- THIS IS THE BACKGROUND CLASS FOR THE TITLE SLIDE ------- */
+
+.section .reveal .state-background { 
+   background: url(concrete_seamless.png); /*MUST SAY "BACKGROUND" not background-image or background-color */
+   opacity: 0.6
 }
+
+/* ------------------------------------------- */
+
 .section .reveal h1 {
-color: #B40F20;
-  font-family: 'Megrim', cursive;
-	font-size: 1.50em;
-	line-height: 10%;
+  color: #B40F20;
+    font-family: 'Megrim', cursive;
+  font-size: 1.50em;
+  line-height: 10%;
 }
 
 .section .reveal p {
   color: #D67236;
-	font-family: 'Raleway', Arial, sans-serif;
-	text-align: right;
-	font-size: 0.70em;
-	font-weight: 400;
+    font-family: 'Raleway', Arial, sans-serif;
+  text-align: right;
+  font-size: 0.70em;
+  font-weight: 400;
   
   /* links */
-.section .reveal a:link {
-  color: #D67236
+    .section .reveal a:link {
+      color: #D67236
+    }
+  
+  .section .reveal a:hover,
+  .section .reveal a:active,
+  .section .reveal a:visited {
+    color: #D67236;
+      text-decoration: none;
+  }
+  
+  .section .reveal .controls div.navigate-left,
+  .reveal .controls div.navigate-left.enabled {
+    border-right-color: #C7B19C;
+  }
+  .section .reveal .controls div.navigate-right,
+  .section .reveal .controls div.navigate-right.enabled {
+    border-left-color: #C7B19C;
+  }
+  
+  .section .reveal .controls div.navigate-up,
+  .reveal .controls div.navigate-up.enabled {
+    border-bottom-color: #C7B19C;
+  }
+  
+  .section .reveal .controls div.navigate-down,
+  .section .reveal .controls div.navigate-down.enabled {
+    border-top-color: #C7B19C;
+  }
+  
+  .section .reveal .controls div.navigate-left.enabled:hover {
+    border-right-color: #D3DDDC;
+  }
+  
+  .section .reveal .controls div.navigate-right.enabled:hover {
+    border-left-color: #D3DDDC;
+  }
+  
+  .section .reveal .controls div.navigate-up.enabled:hover {
+    border-bottom-color: #D3DDDC;
+  }
+  .section .reveal .controls div.navigate-down.enabled:hover {
+    border-top-color: #D3DDDC;
   }
 
-.section .reveal a:hover,
-.section .reveal a:active,
-.section .reveal a:visited {
-    color: #D67236;
-    text-decoration: none;
-}
-
-.section .reveal .controls div.navigate-left,
-.reveal .controls div.navigate-left.enabled {
-  border-right-color: #C7B19C;
-}
-.section .reveal .controls div.navigate-right,
-.section .reveal .controls div.navigate-right.enabled {
-  border-left-color: #C7B19C;
-}
-
-.section .reveal .controls div.navigate-up,
-.reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #C7B19C;
-}
-
-.section .reveal .controls div.navigate-down,
-.section .reveal .controls div.navigate-down.enabled {
-  border-top-color: #C7B19C;
-}
-
-.section .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #D3DDDC;
-}
-
-.section .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #D3DDDC;
-}
-
-.section .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #D3DDDC;
-}
-.section .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #D3DDDC;
-}
 </style>
+    
 
 ========================================================
 title: false
-
-</style bgimage= "concrete_seamless.png">
+left: 65%
 <link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700' rel='stylesheet' type='text/css'>
+
 # Myfanwy 
-# Johnston
+# Johnston 
 
+***
+<br>
+<small>I am a Ph.D. Candidate in the Animal Behavior Graduate Group at UC Davis.  
 
-[Academics](http://biotelemetry.ucdavis.edu/pages/bio_Johnston.asp)
+I study the behavioral ecology of migratory fishes in California, using acoustic telemetry. 
+
+I also have a special place in my heart for programming all kinds of things in R, but especially interactive reports and stand-alone web pages. </small>
+  
+===========
+type: homepage
+incremental: false
+
+[At UC Davis](http://biotelemetry.ucdavis.edu/pages/bio_Johnston.asp)
 
 [GitHub](http://github.com/Myfanwy)
 
@@ -82,52 +102,4 @@ title: false
 
 [LinkedIn](http://linkedin.com/in/myfanwyjohnston/)
 
-[Projects](http://www.voovarb.com/#/1)
-
-
-
-
-
-============
-title: false
-type: homepage
-right: 50%
-## Projects
-<br>
-[Introduction to ggplot2](https://github.com/Myfanwy/ggplot2Intro)
-```{r, global_options, include=FALSE}
-library(ggplot2)
-require(Hmisc)
-require(plyr)  # to access round_any
-knitr::opts_chunk$set(fig.width=4, fig.height=4, fig.path='Figs/',
-                      echo=FALSE, warning=FALSE, message=FALSE)
-```
-
-```{r, echo=FALSE}
-huron <- data.frame(year = 1875:1972, level = as.vector(LakeHuron))
-
-huron$decade <- round_any(huron$year, 10, floor)
-
-h <- ggplot(huron, aes(x=year))
-
-h <- h + geom_ribbon(aes(ymin=0, ymax=level)) + geom_area(aes(y = level))
-
-# Add aesthetic mappings
-h <- h + geom_ribbon(aes(ymin=level-1, ymax=level+1)) + geom_line(aes(y=level))
-
-# Take out some values in the middle for an example of NA handling
-huron[huron$year > 1900 & huron$year < 1910, "level"] <- NA
-h <- ggplot(huron, aes(x=year))
-h + geom_ribbon(aes(ymin=level-1, ymax=level+1, fill="#46ACC8", alpha=0.5)) + 
-  geom_line(aes(y=level, color="46ACC8")) + theme(legend.position="none")
-```
-***
-<br>
-<br>
-<br>
-[Visual Tech Roundup 2015](http://www.voovarb.com/VisualTechRoundup2015/#/)
-<br>
-<br>
-<img src="1-abgg_conferencelogo-002.jpg" style="width:285px; height: 285px">
-
-</style>
+Projects

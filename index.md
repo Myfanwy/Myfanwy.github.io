@@ -1,80 +1,100 @@
+
 <style type="text/css">
-.section .reveal .state-background {
-  background-image: url(concrete_seamless.png);
-  opacity: 0.6
+
+/* ----- THIS IS THE BACKGROUND CLASS FOR THE TITLE SLIDE ------- */
+
+.section .reveal .state-background { 
+   background: url(concrete_seamless.png); /*MUST SAY "BACKGROUND" not background-image or background-color */
+   opacity: 0.6
 }
+
+/* ------------------------------------------- */
+
 .section .reveal h1 {
-color: #B40F20;
-  font-family: 'Megrim', cursive;
-	font-size: 1.50em;
-	line-height: 10%;
+  color: #B40F20;
+    font-family: 'Megrim', cursive;
+  font-size: 1.50em;
+  line-height: 10%;
 }
 
 .section .reveal p {
   color: #D67236;
-	font-family: 'Raleway', Arial, sans-serif;
-	text-align: right;
-	font-size: 0.70em;
-	font-weight: 400;
+    font-family: 'Raleway', Arial, sans-serif;
+  text-align: right;
+  font-size: 0.70em;
+  font-weight: 400;
   
   /* links */
-.section .reveal a:link {
-  color: #D67236
+    .section .reveal a:link {
+      color: #D67236
+    }
+  
+  .section .reveal a:hover,
+  .section .reveal a:active,
+  .section .reveal a:visited {
+    color: #D67236;
+      text-decoration: none;
+  }
+  
+  .section .reveal .controls div.navigate-left,
+  .reveal .controls div.navigate-left.enabled {
+    border-right-color: #C7B19C;
+  }
+  .section .reveal .controls div.navigate-right,
+  .section .reveal .controls div.navigate-right.enabled {
+    border-left-color: #C7B19C;
+  }
+  
+  .section .reveal .controls div.navigate-up,
+  .reveal .controls div.navigate-up.enabled {
+    border-bottom-color: #C7B19C;
+  }
+  
+  .section .reveal .controls div.navigate-down,
+  .section .reveal .controls div.navigate-down.enabled {
+    border-top-color: #C7B19C;
+  }
+  
+  .section .reveal .controls div.navigate-left.enabled:hover {
+    border-right-color: #D3DDDC;
+  }
+  
+  .section .reveal .controls div.navigate-right.enabled:hover {
+    border-left-color: #D3DDDC;
+  }
+  
+  .section .reveal .controls div.navigate-up.enabled:hover {
+    border-bottom-color: #D3DDDC;
+  }
+  .section .reveal .controls div.navigate-down.enabled:hover {
+    border-top-color: #D3DDDC;
   }
 
-.section .reveal a:hover,
-.section .reveal a:active,
-.section .reveal a:visited {
-    color: #D67236;
-    text-decoration: none;
-}
-
-.section .reveal .controls div.navigate-left,
-.reveal .controls div.navigate-left.enabled {
-  border-right-color: #C7B19C;
-}
-.section .reveal .controls div.navigate-right,
-.section .reveal .controls div.navigate-right.enabled {
-  border-left-color: #C7B19C;
-}
-
-.section .reveal .controls div.navigate-up,
-.reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #C7B19C;
-}
-
-.section .reveal .controls div.navigate-down,
-.section .reveal .controls div.navigate-down.enabled {
-  border-top-color: #C7B19C;
-}
-
-.section .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #D3DDDC;
-}
-
-.section .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #D3DDDC;
-}
-
-.section .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #D3DDDC;
-}
-.section .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #D3DDDC;
-}
 </style>
+    
 
 ========================================================
 title: false
-
-</style bgimage= "concrete_seamless.png">
+left: 65%
 <link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700' rel='stylesheet' type='text/css'>
+
 # Myfanwy 
-# Johnston
+# Johnston 
 
+***
+<br>
+<small>I am a Ph.D. Candidate in the Animal Behavior Graduate Group at UC Davis.  
 
-[Academics](http://biotelemetry.ucdavis.edu/pages/bio_Johnston.asp)
+I study the behavioral ecology of migratory fishes in California, using acoustic telemetry. 
+
+I also have a special place in my heart for programming all kinds of things in R, but especially interactive reports and stand-alone web pages. </small>
+  
+===========
+type: homepage
+incremental: false
+
+[At UC Davis](http://biotelemetry.ucdavis.edu/pages/bio_Johnston.asp)
 
 [GitHub](http://github.com/Myfanwy)
 
@@ -82,29 +102,4 @@ title: false
 
 [LinkedIn](http://linkedin.com/in/myfanwyjohnston/)
 
-[Projects](http://www.voovarb.com/#/1)
-
-
-
-
-
-============
-title: false
-type: homepage
-right: 50%
-## Projects
-<br>
-[Introduction to ggplot2](https://github.com/Myfanwy/ggplot2Intro)
-
-
-![plot of chunk unnamed-chunk-1](Figs/unnamed-chunk-1-1.png) 
-***
-<br>
-<br>
-<br>
-[Visual Tech Roundup 2015](http://www.voovarb.com/VisualTechRoundup2015/#/)
-<br>
-<br>
-<img src="1-abgg_conferencelogo-002.jpg" style="width:285px; height: 285px">
-
-</style>
+Projects
