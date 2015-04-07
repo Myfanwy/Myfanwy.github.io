@@ -88,7 +88,7 @@ left: 65%
 
 I study the behavioral ecology of migratory fishes in California, using acoustic telemetry. 
 
-I also have a special place in my heart for programming all kinds of things in R, but especially interactive reports and stand-alone web pages. </small>
+I also have a special place in my heart for programming all kinds of things in [R](http://cran.r-project.org/), but especially interactive reports and stand-alone web pages. </small>
   
 ===========
 type: homepage
