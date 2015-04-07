@@ -32,7 +32,7 @@
   .section .reveal a:hover,
   .section .reveal a:active,
   .section .reveal a:visited {
-    color: #D67236;
+    color: #46ACC8;
       text-decoration: none;
   }
   

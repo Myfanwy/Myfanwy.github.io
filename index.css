@@ -46,19 +46,23 @@
 	font-weight: 400;
 }
 
-/* links */
+/* homepage links */
 .homepage .reveal a:link,
-.hoomepage .reveal a:active,
-.homepage .reveal a:visited {
-    color: #dd8d29; /* gray */
+.homepage .reveal a:hover,
+.homepage .reveal a:active {
+    color: #46ACC8; /*Fantastic Mr. Fox */
     text-decoration: none;
 }
 
 /* visited link */
-,
-.homepage .reveal a:hover {
-    color: #46ACC8; /*Fantastic Mr. Fox */
+.homepage .reveal a:visited {
+    color: #46ACC8; /* gray */
     text-decoration: none;
+}
+
+/* mouse over link */
+.homepage .reveal a:hover {
+    color: #DD8D29;
 }
 
 
@@ -67,13 +71,13 @@
 .section .reveal a:link,
 .section .reveal a:hover,
 .section .reveal a:active {
-    color: #D67236; /* gray */
+    color: #46ACC8; /*Fantastic Mr. Fox */
     text-decoration: none;
 }
 
 /* visited link */
 .section .reveal a:visited {
-    color: #DD8D29; /*Fantastic Mr. Fox */
+    color: #46ACC8; /* gray */
     text-decoration: none;
 }
 
