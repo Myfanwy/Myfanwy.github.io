@@ -104,3 +104,7 @@ incremental: false
 [LinkedIn](http://linkedin.com/in/myfanwyjohnston/)
 
 Projects
+
+[Blog](http://voovarb.wordpress.com)
+
+
