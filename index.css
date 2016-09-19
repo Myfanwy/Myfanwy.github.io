@@ -2,42 +2,32 @@
 <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
-.section .reveal .state-background {
+.reveal .state-background {
  background-image: url(concrete_seamless.png); 
   opacity: 0.6
 }
 
-#para1 {
+
+.reveal body {
   color: #46ACC8;
   font-family: 'Raleway', Arial, sans-serif;
   font-size:1.5em;
   }
 
-.homepage .reveal .state-background {
-  background-image: url(concrete_seamless.png); 
-  opacity: 0.6
-}
-
-#homepage .reveal .blurb{
-  color: #46ACC8;
-  font-family: 'Raleway', Arial, sans-serif;
-  font-size:1.5em;
-  }
-
-.homepage .reveal h1 {
+.reveal h1 {
 	color: #46ACC8;
   font-family: 'Megrim', cursive;
 	font-size: 1.50em;
 	line-height: 20%;
 }
 
-.homepage .reveal h2 {
+.reveal h2 {
 	color: #46ACC8;
 	font-family: 'Megrim', cursive;
 	font-size:1.875em;
 }
 
-.homepage .reveal p {
+.reveal p {
 	color: #DD8D29;
 	font-family: 'Raleway', sans-serif;
 	text-align: right;
@@ -47,21 +37,21 @@
 }
 
 /* homepage links */
-.homepage .reveal a:link,
-.homepage .reveal a:hover,
-.homepage .reveal a:active {
+.reveal a:link,
+.reveal a:hover,
+.reveal a:active {
     color: #46ACC8; /*Fantastic Mr. Fox */
     text-decoration: none;
 }
 
 /* visited link */
-.homepage .reveal a:visited {
+.reveal a:visited {
     color: #46ACC8; /* gray */
     text-decoration: none;
 }
 
 /* mouse over link */
-.homepage .reveal a:hover {
+.reveal a:hover {
     color: #DD8D29;
 }
 
