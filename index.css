@@ -5,7 +5,9 @@
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 
-<link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet'>
+
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
 /*********************************************
  * GLOBAL STYLES
@@ -26,7 +28,7 @@ body {
 
 .reveal { /*THIS IS THE SECTION THAT SETS ALL THE SLIDE BACKGROUNDS!! */
   background-image: url("concrete_seamless.png"); 
-  font-family: "Calibri";
+  font-family: "Muli", sans-serif;
   text-align; right;
   word-wrap: break-word;
   line-height: 1.2;
@@ -40,7 +42,7 @@ body {
 .reveal h1 {
   color: #46ACC8;
   font-size: 2.25em;
-  font-family: "Megrim", cursive;
+  font-family: "Megrim";
   font-weight: normal;
   line-height: 1.0;
   letter-spacing: normal;
@@ -68,7 +70,7 @@ h6 {
 
 .reveal p {
 	color: 'black';
-	font-family: 'Calibri';
+	font-family: 'Muli', sans-serif;
 	font-size: 0.65em;
 	font-weight: 400;
 	text-align: right
