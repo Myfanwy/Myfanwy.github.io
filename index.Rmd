@@ -14,7 +14,7 @@ output:
 <br>
 Hi there!
 
-I am a Senior Biologist at [Cramer Fish Sciences](http://www.fishsciences.net).  I am a recent graduate of the [Animal Behavior Graduate Group](http://anb.ucdavis.edu/index.html) at UC Davis.  
+I am a Senior Biologist at [Cramer Fish Sciences](http://www.fishsciences.net), and a recent graduate of the [Animal Behavior Graduate Group](http://anb.ucdavis.edu/index.html) at UC Davis.  
 
 I study the behavioral ecology of migratory fishes in California. 
 
