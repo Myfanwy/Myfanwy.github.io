@@ -7,15 +7,19 @@ output:
       controls: false
 ---
 
-# Myfanwy <br>Johnston
+# Myfanwy <br>Johnston, Ph.D
 
 ######
 <div id = "right">
-I am a Ph.D. Candidate in the [Animal Behavior Graduate Group](http://anb.ucdavis.edu/index.html) at UC Davis.  
+<br>
+Hi there!
 
-I study the behavioral ecology of migratory fishes in California, using acoustic telemetry. 
+I am a Senior Biologist at [Cramer Fish Sciences](http://www.fishsciences.net).  I am a recent graduate of the [Animal Behavior Graduate Group](http://anb.ucdavis.edu/index.html) at UC Davis.  
 
-I also have a special place in my heart for programming all kinds of things in [R](http://cran.r-project.org/), but especially interactive reports and stand-alone web pages.
+I study the behavioral ecology of migratory fishes in California. 
+
+I also have a special place in my heart for programming all kinds of things in [R](http://cran.r-project.org/). 
+
 <img src="rightarrow.png" style="float:right;position:fixed;bottom: 0px; right: 0px;"> 
 </div>
 
