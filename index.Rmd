@@ -31,8 +31,6 @@ I also have a special place in my heart for programming all kinds of things in [
 
 ###[LinkedIn](http://linkedin.com/in/myfanwyjohnston/)
 
-###[Blog](https://myfanwy.github.io/Blog)
-
 <!---###Projects 
 <img src="rightarrow.png" style="float:right;position:relative;bottom:40px right: 0px"> 
 </div>
