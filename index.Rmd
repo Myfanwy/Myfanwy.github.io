@@ -1,54 +1,79 @@
 ---
 output:
-  revealjs::revealjs_presentation:
-    css: index.css
-    reveal_options:
-      progress: false
-      controls: false
+  html_document:
+    css: index_test.css
+    theme: yeti
+    highlight: tango
 ---
 
-# Myfanwy <br>Johnston, Ph.D
 
-######
-<div id = "right">
+# Myfanwy Johnston, Ph.D
 <br>
-Hi there!
 
-I am a Senior Biologist at [Cramer Fish Sciences](http://www.fishsciences.net), and a recent graduate of the [Animal Behavior Graduate Group](http://anb.ucdavis.edu/index.html) at UC Davis.  
+<div align="center"><img src = "logo_brown.png" height="10" hspace=110></div>
 
-I study the behavioral ecology of migratory fishes in California. 
+<br>
 
-I also have a special place in my heart for programming all kinds of things in [R](http://cran.r-project.org/). 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-<img src="rightarrow.png" style="float:right;position:fixed;bottom: 0px; right: 0px;"> 
+<div class = "row">
+<div class = "col-xs-4">
+
+## About
+
+<br>
+
+#### Background
+
+PhD, Animal Behavior<br>
+UC Davis 2017 <br>
+BA & BS, Conservation & Resource Studies, Marine Science <br>
+UC Berkeley 2009
+<br>
+
+#### Current
+Senior Biologist, [Cramer Fish Sciences](http://fishsciences.net)
+Modeling, Analysis and Synthesis Lab
+Auburn, California
+
+<br>
+<br>
+
+
+  
 </div>
 
+<div class = "col-xs-4">
 
-# Hub
-###
-<div id="right">
-###[At UC Davis](http://biotelemetry.ucdavis.edu/pages/bio_Johnston.asp)
+##  Publications
 
-###[GitHub](http://github.com/Myfanwy)
+<br>
+<small>
 
-###[Twitter](http://twitter.com/Voovarb)
+Schumer, G., Crowley, K., Maltz, E., **Johnston, M.**, Anders, P., & Blankenship, S. Utilizing environmental DNA for fish eradication effectiveness monitoring in streams. Biological Invasions, 1-12.[html](https://link.springer.com/article/10.1007/s10530-019-02056-z)
 
-###[LinkedIn](http://linkedin.com/in/myfanwyjohnston/)
+**Johnston, M. E.**, Steel, A. E., Espe, M., Sommer, T., Klimley, A. P., Sandstrom, P., & Smith, D. (2018). Survival of Juvenile Chinook Salmon in the Yolo Bypass and the Lower Sacramento River, California. San Francisco Estuary and Watershed Science, 16(2).[pdf](https://cloudfront.escholarship.org/dist/prd/content/qt8bq7t7rr/qt8bq7t7rr.pdf)
 
-<!---###Projects 
-<img src="rightarrow.png" style="float:right;position:relative;bottom:40px right: 0px"> 
+**Johnston, M. E.**, Kelly, J. T., Lindvall, M. E., McElreath, R., & Klimley, A. P. (2017). Experimental evaluation of the use of vision and barbels as references for rheotaxis in green sturgeon. Journal of Experimental Marine Biology and Ecology, 496, 9-15.[pdf](http://www.eva.mpg.de/documents/Elsevier/Johnston_Experimental_JExpMarineBiolEcol_2017_2491416.pdf)
+  
+</small>  
 </div>
 
-# Projects 
-###
-<br>
-<br>
-<br>
-<div id="projects">
-<img src="logo.png">
-<img src="logo_brown.png">
-<br>
-<style text-align:"center"> ...page in progress!</style>
-</div>
----->
+<div class = "col-xs-4">
+  
+## Projects
 
+<br>
+
+[{fishpals} R package](https://github.com/Myfanwy/fishpals)  
+<br>
+[{fishtrackr} R package](https://github.com/Myfanwy/fishtrackr)  
+<br>
+[North American Rolex Scholar blog, 2009-2010](http://owussnorthamerica.org/category/scholar-journeys/2009-scholar-journey/)  
+
+  
+</div>
+</div>
+</div>

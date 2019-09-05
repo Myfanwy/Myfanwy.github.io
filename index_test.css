@@ -1,0 +1,52 @@
+/**
+ * A simple theme for myfanwy.github.io
+ *
+ * This theme is Copyright (C) 2015 Myfanwy Johnston.
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+<link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet'>
+
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background-image: url("concrete_seamless.png");
+  display: inline;
+  text-align: right;
+}
+
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+h1 {
+  color: #46ACC8;
+  font-size: 3.25em;
+  font-family: "Megrim";
+  font-weight: normal;
+  line-height: 1.0;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word; 
+  text-align: left;
+}
+
+h4 {
+  color: #46ACC8;
+  font-size: 1em;
+  font-family: "Helvetica";
+  font-weight: normal;
+  line-height: 1.0;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word; 
+  text-align: left;
+}
+
+
+
