@@ -3,14 +3,16 @@ output:
   html_document:
     css: index_test.css
     theme: yeti
-    highlight: tango
 ---
 
+<style>
+@import url('https://fonts.googleapis.com/css?family=Megrim&display=swap');
+</style>
 
 # Myfanwy Johnston, Ph.D
 <br>
 
-<div align="center"><img src = "logo_brown.png" height="10" hspace=110></div>
+<div align="center"><img src = "logo.png" height="10" hspace=110></div>
 
 <br>
 
@@ -61,7 +63,7 @@ Schumer, G., Crowley, K., Maltz, E., **Johnston, M.**, Anders, P., & Blankenship
 </small>  
 </div>
 
-<div class = "col-xs-4">
+<div class = "col-xs-4"> 
   
 ## Projects
 
@@ -73,7 +75,6 @@ Schumer, G., Crowley, K., Maltz, E., **Johnston, M.**, Anders, P., & Blankenship
 <br>
 [North American Rolex Scholar blog, 2009-2010](http://owussnorthamerica.org/category/scholar-journeys/2009-scholar-journey/)  
 
-  
 </div>
 </div>
 </div>
