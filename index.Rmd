@@ -41,8 +41,6 @@ Modeling, Analysis and Synthesis Lab
 Auburn, California
 
 <br>
-<br>
-
 
   
 </div>
@@ -54,11 +52,13 @@ Auburn, California
 <br>
 <small>
 
-Schumer, G., Crowley, K., Maltz, E., **Johnston, M.**, Anders, P., & Blankenship, S. Utilizing environmental DNA for fish eradication effectiveness monitoring in streams. Biological Invasions, 1-12.[html](https://link.springer.com/article/10.1007/s10530-019-02056-z)
+Schumer, G., Crowley, K., Maltz, E., **Johnston, M.**, Anders, P., & Blankenship, S. (2019). Utilizing environmental DNA for fish eradication effectiveness monitoring in streams. Biological Invasions, 1-12.[html](https://link.springer.com/article/10.1007/s10530-019-02056-z)
 
 **Johnston, M. E.**, Steel, A. E., Espe, M., Sommer, T., Klimley, A. P., Sandstrom, P., & Smith, D. (2018). Survival of Juvenile Chinook Salmon in the Yolo Bypass and the Lower Sacramento River, California. San Francisco Estuary and Watershed Science, 16(2).[pdf](https://cloudfront.escholarship.org/dist/prd/content/qt8bq7t7rr/qt8bq7t7rr.pdf)
 
 **Johnston, M. E.**, Kelly, J. T., Lindvall, M. E., McElreath, R., & Klimley, A. P. (2017). Experimental evaluation of the use of vision and barbels as references for rheotaxis in green sturgeon. Journal of Experimental Marine Biology and Ecology, 496, 9-15.[pdf](http://www.eva.mpg.de/documents/Elsevier/Johnston_Experimental_JExpMarineBiolEcol_2017_2491416.pdf)
+
+**Rowlands, M.** (2007). Substrata Preference in Foraminifera of Fouling Communities in Moorea, French Polynesia. [pdf](https://cloudfront.escholarship.org/dist/prd/content/qt1n31w1ck/qt1n31w1ck.pdf)
   
 </small>  
 </div>
@@ -69,12 +69,26 @@ Schumer, G., Crowley, K., Maltz, E., **Johnston, M.**, Anders, P., & Blankenship
 
 <br>
 
-[{fishpals} R package](https://github.com/Myfanwy/fishpals)  
+[{artemis} R package](https://fishsciences.github.io/artemis/)  
+<br>
+[{fishpals} R package](https://fishsciences.github.io/fishpals/)  
 <br>
 [{fishtrackr} R package](https://github.com/Myfanwy/fishtrackr)  
 <br>
+[Practical Pisces blog](https://fishsciences.github.io)  
+<br> 
 [North American Rolex Scholar blog, 2009-2010](http://owussnorthamerica.org/category/scholar-journeys/2009-scholar-journey/)  
+<br>
+[Society6 Artist page](https://society6.com/voovarb)
+<br>
+</div>
+</div>
+</div>
 
-</div>
-</div>
+<div class = "footer_c">
+--------------------------
+### Contact
+[Twitter](https://twitter.com/Voovarb)
+<br>
+
 </div>

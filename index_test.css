@@ -3,10 +3,11 @@
  * GLOBAL STYLES
  *********************************************/
 
-  
 body {
   display: inline;
   text-align: right;
+  background-color: #f7f6e9;
+
 }
 
 
@@ -26,4 +27,29 @@ h1 {
   text-align: left;
 }
 
+h4 {
+  font-size: 0.95em;
+  font-family: "Helvetica";
+  font-weight: bold;
+  line-height: 1.0;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word; 
+  text-align: right;
+}
 
+.footer_c{
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-family: "Arial";
+  font-weight: 100;
+  line-height: 1.0;
+  letter-spacing: normal;
+  text-transform: none;
+  word-wrap: break-word; 
+  text-align: center;
+}
