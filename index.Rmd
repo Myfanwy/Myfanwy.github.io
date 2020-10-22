@@ -12,7 +12,7 @@ output:
 # Myfanwy Johnston, Ph.D
 <br>
 
-<div align="center"><img src = "logo.png" height="10" hspace=110></div>
+<div align="center"><img src="logo.png" alt="test" hspace=110></div>
 
 <br>
 
