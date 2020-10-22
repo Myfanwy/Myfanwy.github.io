@@ -32,12 +32,13 @@ knitr::opts_chunk$set(echo = TRUE)
 PhD, Animal Behavior<br>
 UC Davis 2017 <br>
 BA & BS, Conservation & Resource Studies, Marine Science <br>
-UC Berkeley 2009
+UC Berkeley 2010
 <br>
 
 #### Current
-Senior Biologist, [Cramer Fish Sciences](http://fishsciences.net)
-Modeling, Analysis and Synthesis Lab
+Senior Biologist <br>
+[Cramer Fish Sciences](https://fishsciences.net) <br>
+Modeling, Analysis & Synthesis Lab <br>
 Auburn, California
 
 <br>
@@ -51,6 +52,8 @@ Auburn, California
 
 <br>
 <small>
+
+**Johnston, M.**, Frantzich, J., Espe, M.B. et al. Contrasting the migratory behavior and stranding risk of White Sturgeon and Chinook Salmon in a modified floodplain of California. Environ Biol Fish 103, 481–493 (2020). [pdf](https://rdcu.be/b317p)
 
 Schumer, G., Crowley, K., Maltz, E., **Johnston, M.**, Anders, P., & Blankenship, S. (2019). Utilizing environmental DNA for fish eradication effectiveness monitoring in streams. Biological Invasions, 1-12.[html](https://link.springer.com/article/10.1007/s10530-019-02056-z)
 
@@ -69,17 +72,23 @@ Schumer, G., Crowley, K., Maltz, E., **Johnston, M.**, Anders, P., & Blankenship
 
 <br>
 
+#### R Packages
+
 [{artemis} R package](https://fishsciences.github.io/artemis/)  
 <br>
 [{fishpals} R package](https://fishsciences.github.io/fishpals/)  
 <br>
-[{fishtrackr} R package](https://github.com/Myfanwy/fishtrackr)  
+[{tagtales} R package](https://github.com/Myfanwy/tagtales)  
 <br>
-[Practical Pisces blog](https://fishsciences.github.io)  
-<br> 
-[North American Rolex Scholar blog, 2009-2010](http://owussnorthamerica.org/category/scholar-journeys/2009-scholar-journey/)  
 <br>
-[Society6 Artist page](https://society6.com/voovarb)
+
+#### R Community
+
+Introduction to Programming in R 
+    [Course videos](https://www.youtube.com/playlist?list=PLOj5McD9FWIwhPoZ-AKBUl-zrP_CZKtnm)
+    <br>
+    [Course repository](https://github.com/fishsciences/2020-R-Course)
+<br>
 <br>
 </div>
 </div>
@@ -88,7 +97,8 @@ Schumer, G., Crowley, K., Maltz, E., **Johnston, M.**, Anders, P., & Blankenship
 <div class = "footer_c">
 --------------------------
 ### Contact
-[Twitter](https://twitter.com/Voovarb)
+<br>
+[LinkedIn](https://www.linkedin.com/in/myfanwyjohnston/)
 <br>
 
 </div>
